@@ -45,59 +45,62 @@ namespace ZorkFinal
 
         public Acteur GenererClasse()
         {
-            GenerateurClasse generer = new GenerateurClasse();
+            
             Acteur acteur;
             int reponse = 0;
 
             for(int i = 0; i < 3; i++)
             {
-                reponse = PoserQuestion(generer.Questions[i]);
+                reponse = PoserQuestion(this.Questions[i]);
 
                 switch(reponse)
                 {
                     case 1:
-                        generer.Magicien++;
+                        this.Magicien++;
                         break;
                     case 2:
-                        generer.Voleur++;
+                        this.Voleur++;
                         break;
                     case 3:
-                        generer.Guerrier++;
+                        this.Guerrier++;
                         break;
                 }
             }
 
-            if(generer.Magicien > generer.Voleur && generer.Magicien > generer.Guerrier)
+            if(this.Magicien > this.Voleur && this.Magicien > this.Guerrier)
             {
-                acteur = generer.Classes[0];
+                acteur = this.Classes[0];
             }
-            else if(generer.Voleur > generer.Magicien && generer.Voleur > generer.Guerrier)
+            else if(this.Voleur > this.Magicien && this.Voleur > this.Guerrier)
             {
-                acteur = generer.Classes[1];
+                acteur = this.Classes[1];
             }
-            else if(generer.Guerrier > generer.Magicien && generer.Guerrier > generer.Voleur)
+            else if(this.Guerrier > this.Magicien && this.Guerrier > this.Voleur)
             {
-                acteur = generer.Classes[2];
+                acteur = this.Classes[2];
             }
             else
             {
-                reponse = PoserQuestion(generer.Questions[3]);
+                reponse = PoserQuestion(this.Questions[3]);
 
                 switch(reponse)
                 {
                     case 1:
-                        acteur = generer.Classes[2];
+                        acteur = this.Classes[2];
                         break;
                     case 2:
-                        acteur = generer.Classes[0];
+                        acteur = this.Classes[0];
                         break;
                     case 3:
-                        acteur = generer.Classes[1];
+                        acteur = this.Classes[1];
+                        break;
+                    default:
+                        acteur = this.Classes[0];
                         break;
                 }
             }
 
-            return new Acteur;
+            return acteur;
         }
 
         /*méthode pour renvoyer une réponse aux questions
@@ -143,22 +146,23 @@ namespace ZorkFinal
 
         private Acteur DecoderClasse(string[] classe)
         {
-            Acteur acteur = new Acteur("",0,0,0,0,0,"");
+            
             int maxHp = 0, maxArmure = 0, regenArmure = 0, agilite = 0, dommage = 0;
+            string nom = "", description = "";
 
-            acteur.Nom = classe[0];
+            nom = classe[0];
             int.TryParse(classe[1], out maxHp);
-            acteur.MaxHp = maxHp;
+            
             int.TryParse(classe[2], out maxArmure);
-            acteur.MaxArmure = maxArmure;
+            
             int.TryParse(classe[3], out regenArmure);
-            acteur.RegenArmure = regenArmure;
+            
             int.TryParse(classe[4], out agilite);
-            acteur.Agilite = agilite;
+            
             int.TryParse(classe[5], out dommage);
-            acteur.Description = classe[6];
+            description = classe[6];
 
-            return acteur;
+            return new Acteur(nom,maxHp,maxArmure,regenArmure,agilite,dommage,description);
         }
     }
 }

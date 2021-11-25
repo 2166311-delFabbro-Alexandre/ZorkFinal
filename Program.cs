@@ -7,7 +7,7 @@ namespace ZorkFinal
     {
         static void Main(string[] args)
         {
-            Acteur perso = new Acteur("",0,0,0,0,0,"");
+            Acteur perso;
             GenerateurClasse generateur = new GenerateurClasse();
             perso = generateur.GenererClasse();
 

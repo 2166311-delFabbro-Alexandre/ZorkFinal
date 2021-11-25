@@ -100,7 +100,7 @@ namespace ZorkFinal
         //Méthode pour afficher l'état d'un acteur
         public void AfficherEtat()
         {
-            System.Console.WriteLine(" {0}\n {1}/{2} HP\n {3}/{4} Armure", this.Nom,this.Hp,this.MaxHp,this.Armure,this.MaxArmure);
+            System.Console.WriteLine(" {0}\n {1}/{2} HP\n {3}/{4} Armure\n {5}", this.Nom,this.Hp,this.MaxHp,this.Armure,this.MaxArmure,this.Description);
             System.Console.ReadLine();
         }
         
