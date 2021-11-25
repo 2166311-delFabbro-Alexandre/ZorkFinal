@@ -7,8 +7,15 @@ namespace ZorkFinal
     {
         static void Main(string[] args)
         {
-            string texte = "";
-            StreamReader lecteur = new StreamReader("Classes.txt");
+            Acteur perso = new Acteur("",0,0,0,0,0,"");
+            GenerateurClasse generateur = new GenerateurClasse();
+            perso = generateur.GenererClasse();
+
+            perso.AfficherEtat();
+
+            
+
+
 
         }
     }

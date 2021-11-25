@@ -1,0 +1,16 @@
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\bin\Debug\net5.0\ZorkFinal.exe
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\bin\Debug\net5.0\ZorkFinal.deps.json
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\bin\Debug\net5.0\ZorkFinal.runtimeconfig.json
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\bin\Debug\net5.0\ZorkFinal.runtimeconfig.dev.json
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\bin\Debug\net5.0\ZorkFinal.dll
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\bin\Debug\net5.0\ref\ZorkFinal.dll
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\bin\Debug\net5.0\ZorkFinal.pdb
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ZorkFinal.csproj.AssemblyReference.cache
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ZorkFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ZorkFinal.AssemblyInfoInputs.cache
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ZorkFinal.AssemblyInfo.cs
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ZorkFinal.csproj.CoreCompileInputs.cache
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ZorkFinal.dll
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ref\ZorkFinal.dll
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ZorkFinal.pdb
+C:\Users\client\Documents\A21\Programmation 1\Portefolio\ZorkFinal\obj\Debug\net5.0\ZorkFinal.genruntimeconfig.cache
